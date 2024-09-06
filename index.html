@@ -24,7 +24,7 @@
 
     <!-- Navigation Bar -->
     <nav
-      class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50"
+      class="w-full fixed top-0 left-0 px-5 lg:px-8 py-4 flex items-center justify-between z-50 bg-white dark:bg-darkTheme shadow-md"
     >
       <!-- <img
         class="w-28 cursor-pointer mr-14"
@@ -32,7 +32,7 @@
         alt="logo"
       /> -->
       <h1
-        class="text-2xl font-bold text-gray-900 tracking-tight leading-tight sm:text-2xl md:text-4xl lg:text-4xl dark:bg-darkTheme dark:text-white"
+        class="text-2xl font-bold text-gray-900 sm:text-2xl md:text-4xl dark:text-white"
       >
         Chamika <br />Lakshitha
       </h1>
@@ -103,17 +103,27 @@
 
     <!-- Header Section -->
     <div
-      class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4"
+      class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 px-4 sm:px-0"
     >
-      <img src="./images/my.png" alt="" class="rounded-full w-32 h-32" />
-      <h3 class="flex items-center gap-2 text-xl md:text-2xl mb-3 font-Ovo">
+      <img
+        src="./images/my.png"
+        alt=""
+        class="rounded-full w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40"
+      />
+      <h3
+        class="text-lg sm:text-xl md:text-2xl font-Ovo flex items-center gap-2"
+      >
         Hi! I'm Chamika Lakshitha
         <img src="./images/hand-icon.png" alt="" class="w-6" />
       </h3>
-      <h1 class="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">
+      <h1
+        class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight"
+      >
         Frontend Web Developer | Intern Project Manager
       </h1>
-      <p class="max-w-2xl mx-auto font-Ovo">
+      <p
+        class="max-w-2xl text-sm sm:text-base lg:text-lg mx-auto leading-relaxed"
+      >
         Hello. I'm Chamika Lakshitha,A prospective third year B.sc(Hons)
         Computing and Information Systems undergraduate at Faculty of Computing
         Sabaragamuwa University of Sri Lanka with a friendly and approachable
@@ -125,34 +135,39 @@
       <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <a
           href="#contact"
-          class="px-10 py-3 border rounded-full bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white flex items-center gap-2 dark:border-transparent"
+          class="px-8 sm:px-10 py-3 border rounded-full bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white flex items-center gap-2 dark:border-transparent"
           >Contact Me
           <img src="./images/right-arrow-white.png" alt="" class="w-4"
         /></a>
         <a
           href="./images/Chamika Lakshitha(PM).pdf"
           download
-          class="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
+          class="px-8 sm:px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
           >My Resume <img src="./images/download-icon.png" alt="" class="w-4"
         /></a>
       </div>
     </div>
 
     <!-- about me -->
-    <div id="about" class="w-full px-[12%] py-10 scroll-mt-20">
+    <div
+      id="about"
+      class="w-full px-4 sm:px-6 md:px-12 lg:px-20 py-10 scroll-mt-20"
+    >
       <h4 class="text-center mb-2 text-lg font-Ovo">Introduction</h4>
-      <h2 class="text-center text-5xl">About Me</h2>
+      <h2 class="text-center text-4xl sm:text-5xl">About Me</h2>
       <div
-        class="flex w-full flex-col lg:flex-row items-center gap-20 my-20 font-Ovo"
+        class="flex flex-col lg:flex-row items-center gap-10 lg:gap-20 my-10 lg:my-20 font-Ovo"
       >
-        <div class="max-w-max mx-auto relative">
+        <div
+          class="relative max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto"
+        >
           <img
             src="./images/my.png"
             alt=""
-            class="w-64 sm:w-80 rounded-3xl max-w-none"
+            class="w-48 sm:w-64 md:w-80 rounded-3xl max-w-none"
           />
           <div
-            class="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center"
+            class="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full transform translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center"
           >
             <img
               src="./images/circular-text.png"
@@ -162,12 +177,12 @@
             <img
               src="./images/dev-icon.png"
               alt=""
-              class="w-1/4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+              class="w-1/4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
             />
           </div>
         </div>
         <div class="flex-1">
-          <p class="mb-10 max-w-2xl font-Ovo">
+          <p class="mb-6 sm:mb-10 max-w-full md:max-w-2xl font-Ovo">
             As a Project Management Intern at Neura IT, I am actively gaining
             hands-on experience in overseeing and optimizing IT projects. My
             role involves assisting with project planning, tracking progress,
@@ -178,73 +193,73 @@
             excited to contribute to impactful projects and advance my career in
             project management.
           </p>
-          <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
+          <ul
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-full md:max-w-2xl"
+          >
             <li
-              class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+              class="border border-gray-400 rounded-xl p-4 sm:p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
             >
               <img
                 src="./images/code-icon.png"
                 alt=""
-                class="w-7 mt-3 dark:hidden"
+                class="w-6 sm:w-7 mt-3 dark:hidden"
               />
               <img
                 src="./images/code-icon-dark.png"
                 alt=""
-                class="w-7 mt-3 hidden dark:block"
+                class="w-6 sm:w-7 mt-3 hidden dark:block"
               />
               <h3 class="my-4 font-semibold text-gray-700 dark:text-white">
                 Technical Skills
               </h3>
               <p class="text-gray-600 text-sm dark:text-white/80">
-                HTML , CSS , Bootstrap , TailwindCSS , JS , Next JS , React JS,
-                React Native , Node JS , MongoDB , Express , Git ,Trello
+                HTML, CSS, Bootstrap, TailwindCSS, JS, Next JS, React JS, React
+                Native, Node JS, MongoDB, Express, Git, Trello
               </p>
               <h3 class="my-4 font-semibold text-gray-700 dark:text-white">
                 Soft Skills
               </h3>
               <p class="text-gray-600 text-sm dark:text-white/80">
-                Team work , Decision making , Communication , Analytical
-                Thinking , Adaptability
+                Teamwork, Decision Making, Communication, Analytical Thinking,
+                Adaptability
               </p>
             </li>
             <li
-              class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+              class="border border-gray-400 rounded-xl p-4 sm:p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
             >
               <img
                 src="./images/edu-icon.png"
                 alt=""
-                class="w-7 mt-3 dark:hidden"
+                class="w-6 sm:w-7 mt-3 dark:hidden"
               />
               <img
                 src="./images/edu-icon-dark.png"
                 alt=""
-                class="w-7 mt-3 hidden dark:block"
+                class="w-6 sm:w-7 mt-3 hidden dark:block"
               />
               <h3 class="my-4 font-semibold text-gray-700 dark:text-white">
                 Education
               </h3>
               <p class="text-gray-600 text-sm dark:text-white/80">
-                B.sc(Hons) in Computing and Information Systems- Sabaragamuwa
-                University of SriLanka
+                B.Sc (Hons) in Computing and Information Systems - Sabaragamuwa
+                University of Sri Lanka
               </p>
-              <br />
-              <p class="text-gray-600 text-sm dark:text-white/80">
+              <p class="text-gray-600 text-sm dark:text-white/80 mt-2">
                 Diploma in CyberSecurity and Ethical Hacking - SITC Campus
               </p>
             </li>
-
             <li
-              class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+              class="border border-gray-400 rounded-xl p-4 sm:p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
             >
               <img
                 src="./images/project-icon.png"
                 alt=""
-                class="w-7 mt-3 dark:hidden"
+                class="w-6 sm:w-7 mt-3 dark:hidden"
               />
               <img
                 src="./images/project-icon-dark.png"
                 alt=""
-                class="w-7 mt-3 hidden dark:block"
+                class="w-6 sm:w-7 mt-3 hidden dark:block"
               />
               <h3 class="my-4 font-semibold text-gray-700 dark:text-white">
                 Certificates
@@ -252,12 +267,10 @@
               <p class="text-gray-600 text-sm dark:text-white/80">
                 Introduction to Prince2 - Simplilearn
               </p>
-              <br />
-              <p class="text-gray-600 text-sm dark:text-white/80">
+              <p class="text-gray-600 text-sm dark:text-white/80 mt-2">
                 Introduction to PMP Basics - Simplilearn
               </p>
-              <br />
-              <p class="text-gray-600 text-sm dark:text-white/80">
+              <p class="text-gray-600 text-sm dark:text-white/80 mt-2">
                 Project Management - GreatLearning
               </p>
             </li>
@@ -265,52 +278,63 @@
           <h4 class="my-6 text-gray-700 font-Ovo dark:text-white/80">
             Tools I use
           </h4>
-          <ul class="flex items-center gap-3 sm:gap-5">
+          <ul class="flex flex-wrap items-center gap-3 sm:gap-5">
             <li
-              class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+              class="flex items-center justify-center w-10 sm:w-12 md:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             >
-              <img src="./images/vscode.png" alt="" class="w-5 sm:w-7" />
+              <img src="./images/vscode.png" alt="" class="w-4 sm:w-5 md:w-6" />
             </li>
             <li
-              class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+              class="flex items-center justify-center w-10 sm:w-12 md:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             >
-              <img src="./images/firebase.png" alt="" class="w-5 sm:w-7" />
-            </li>
-
-            <li
-              class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
-            >
-              <img src="./images/trello.png" alt="" class="w-5 sm:w-7" />
+              <img
+                src="./images/firebase.png"
+                alt=""
+                class="w-4 sm:w-5 md:w-6"
+              />
             </li>
             <li
-              class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+              class="flex items-center justify-center w-10 sm:w-12 md:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             >
-              <img src="./images/jira.png" alt="" class="w-5 sm:w-7" />
+              <img src="./images/trello.png" alt="" class="w-4 sm:w-5 md:w-6" />
             </li>
             <li
-              class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+              class="flex items-center justify-center w-10 sm:w-12 md:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             >
-              <img src="./images/clickup.png" alt="" class="w-5 sm:w-7" />
+              <img src="./images/jira.png" alt="" class="w-4 sm:w-5 md:w-6" />
             </li>
             <li
-              class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+              class="flex items-center justify-center w-10 sm:w-12 md:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             >
-              <img src="./images/slack.png" alt="" class="w-5 sm:w-7" />
+              <img
+                src="./images/clickup.png"
+                alt=""
+                class="w-4 sm:w-5 md:w-6"
+              />
             </li>
             <li
-              class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+              class="flex items-center justify-center w-10 sm:w-12 md:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             >
-              <img src="./images/mongodb.png" alt="" class="w-5 sm:w-7" />
+              <img src="./images/slack.png" alt="" class="w-4 sm:w-5 md:w-6" />
             </li>
             <li
-              class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+              class="flex items-center justify-center w-10 sm:w-12 md:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             >
-              <img src="./images/figma.png" alt="" class="w-5 sm:w-7" />
+              <img
+                src="./images/mongodb.png"
+                alt=""
+                class="w-4 sm:w-5 md:w-6"
+              />
             </li>
             <li
-              class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+              class="flex items-center justify-center w-10 sm:w-12 md:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
             >
-              <img src="./images/git.png" alt="" class="w-5 sm:w-7" />
+              <img src="./images/figma.png" alt="" class="w-4 sm:w-5 md:w-6" />
+            </li>
+            <li
+              class="flex items-center justify-center w-10 sm:w-12 md:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+            >
+              <img src="./images/git.png" alt="" class="w-4 sm:w-5 md:w-6" />
             </li>
           </ul>
         </div>
@@ -318,107 +342,113 @@
     </div>
 
     <!-- skills -->
-    <div class="w-full px-[12%] py-10 scroll-mt-20" id="services">
-      <h2 class="text-center text-5xl font-Ovo">My Skills</h2>
-      <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
+    <div
+      class="w-full px-4 sm:px-6 md:px-8 lg:px-12 py-10 scroll-mt-20"
+      id="services"
+    >
+      <h2 class="text-center text-4xl sm:text-5xl font-Ovo">My Skills</h2>
+      <p
+        class="text-center max-w-full sm:max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
+      >
         With a strong academic background and a passion for information systems,
         I am eager to apply my analytical and problem-solving skills in a
         practical setting.
       </p>
 
-      <div class="grid grid-cols-3 gap-6 my-10">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 my-10">
         <div
-          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
+          class="border border-gray-400 rounded-lg px-6 py-8 sm:px-8 sm:py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
         >
-          <img src="./images/team.png" alt="" class="w-10" />
-          <h3 class="text-lg my-4 text-gray-700 dark:text-white">
+          <img src="./images/team.png" alt="" class="w-8 sm:w-10 mx-auto" />
+          <h3 class="text-lg my-4 text-gray-700 dark:text-white text-center">
             Team Management
           </h3>
-          <p class="text-sm text-gray-600 leading-5 dark:text-white/80">
+          <p
+            class="text-sm text-gray-600 leading-5 dark:text-white/80 text-center"
+          >
             Building a collaborative and productive team environment and
             Assigning tasks based on team members' strengths and providing
             constructive feedback.
           </p>
-          <a href="" class="flex items-center gap-2 text-sm mt-5"
-            >Read More <img src="./images/right-arrow.png" alt="" class="w-4"
-          /></a>
         </div>
 
         <div
-          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
+          class="border border-gray-400 rounded-lg px-6 py-8 sm:px-8 sm:py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
         >
-          <img src="./images/leadership.png" alt="" class="w-10" />
-          <h3 class="text-lg my-4 dark:text-white text-gray-700">Leadership</h3>
-          <p class="text-sm text-gray-600 leading-5 dark:text-white/80">
+          <img
+            src="./images/leadership.png"
+            alt=""
+            class="w-8 sm:w-10 mx-auto"
+          />
+          <h3 class="text-lg my-4 text-gray-700 dark:text-white text-center">
+            Leadership
+          </h3>
+          <p
+            class="text-sm text-gray-600 leading-5 dark:text-white/80 text-center"
+          >
             Clear and concise communication with stakeholders, team members, and
             clients. Managing expectations and providing regular updates.
           </p>
-          <a href="" class="flex items-center gap-2 text-sm mt-5"
-            >Read More <img src="./images/right-arrow.png" alt="" class="w-4"
-          /></a>
         </div>
 
         <div
-          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
+          class="border border-gray-400 rounded-lg px-6 py-8 sm:px-8 sm:py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
         >
-          <img src="./images/time.png" alt="" class="w-10" />
-          <h3 class="text-lg my-4 text-gray-700 dark:text-white">
+          <img src="./images/time.png" alt="" class="w-8 sm:w-10 mx-auto" />
+          <h3 class="text-lg my-4 text-gray-700 dark:text-white text-center">
             Time Management
           </h3>
-          <p class="text-sm text-gray-600 leading-5 dark:text-white/80">
+          <p
+            class="text-sm text-gray-600 leading-5 dark:text-white/80 text-center"
+          >
             Prioritizing tasks, managing deadlines, and ensuring timely project
             delivery. Effective delegation and resource allocation.
           </p>
-          <a href="" class="flex items-center gap-2 text-sm mt-5"
-            >Read More <img src="./images/right-arrow.png" alt="" class="w-4"
-          /></a>
         </div>
 
         <div
-          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
+          class="border border-gray-400 rounded-lg px-6 py-8 sm:px-8 sm:py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
         >
-          <img src="./images/problem.png" alt="" class="w-10" />
-          <h3 class="text-lg my-4 dark:text-white text-gray-700">
+          <img src="./images/problem.png" alt="" class="w-8 sm:w-10 mx-auto" />
+          <h3 class="text-lg my-4 text-gray-700 dark:text-white text-center">
             Problem-Solving
           </h3>
-          <p class="text-sm text-gray-600 leading-5 dark:text-white/80">
+          <p
+            class="text-sm text-gray-600 leading-5 dark:text-white/80 text-center"
+          >
             Analyzing complex situations and finding practical solutions.
             Adapting to unforeseen challenges during the project lifecycle.
           </p>
-          <a href="" class="flex items-center gap-2 text-sm mt-5"
-            >Read More <img src="./images/right-arrow.png" alt="" class="w-4"
-          /></a>
         </div>
 
         <div
-          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
+          class="border border-gray-400 rounded-lg px-6 py-8 sm:px-8 sm:py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
         >
-          <img src="./images/risk.png" alt="" class="w-10" />
-          <h3 class="text-lg my-4 dark:text-white text-gray-700">
+          <img src="./images/risk.png" alt="" class="w-8 sm:w-10 mx-auto" />
+          <h3 class="text-lg my-4 text-gray-700 dark:text-white text-center">
             Risk Management
           </h3>
-          <p class="text-sm text-gray-600 leading-5 dark:text-white/80">
+          <p
+            class="text-sm text-gray-600 leading-5 dark:text-white/80 text-center"
+          >
             Identifying, analyzing, and mitigating project risks. Developing
             contingency plans.
           </p>
-          <a href="" class="flex items-center gap-2 text-sm mt-5"
-            >Read More <img src="./images/right-arrow.png" alt="" class="w-4"
-          /></a>
         </div>
+
         <div
-          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
+          class="border border-gray-400 rounded-lg px-6 py-8 sm:px-8 sm:py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white"
         >
-          <img src="./images/budget.png" alt="" class="w-10" />
-          <h3 class="text-lg my-4 dark:text-white text-gray-700">
+          <img src="./images/budget.png" alt="" class="w-8 sm:w-10 mx-auto" />
+          <h3 class="text-lg my-4 text-gray-700 dark:text-white text-center">
             Budget Management
           </h3>
-          <p class="text-sm text-gray-600 leading-5 dark:text-white/80">
+          <p
+            class="text-sm text-gray-600 leading-5 dark:text-white/80 text-center"
+          >
             Planning, estimating, and controlling the project budget. Balancing
             cost with quality and time constraints.
           </p>
-          <a href="" class="flex items-center gap-2 text-sm mt-5"
-            >Read More <img src="./images/right-arrow.png" alt="" class="w-4"
-          /></a>
         </div>
       </div>
     </div>
